@@ -1,0 +1,26 @@
+.kanban-card {
+    background-color: #fafafa; /* Subtle background */
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px; /* Set a fixed width for all Kanban cards */
+    height: 180px; /* Set a fixed height for all Kanban cards */
+    box-shadow: none; /* Remove box shadow as requested */
+    border: 1px solid #ddd; /* Optional: subtle border */
+}
+.idd{
+    font-size: 2rem;
+}
+.kanban-card-title {
+    font-size: 0.9rem; /* Small font size for the card title */
+    margin-bottom: 8px;
+}
+
+.kanban-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem; /* Small font size for footer text */
+}

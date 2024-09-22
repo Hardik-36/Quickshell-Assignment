@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.kanban-board {
+  display: flex;
+  gap: 24px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .priority-column {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 16px;
+  min-width: 250px;
+} */
+
+.priority-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.priority-header h3 {
+  font-size: 16px;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.priority-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.tickets {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 12px;
+  width:17vw;
 }
 
-.App-link {
-  color: #61dafb;
+.ticket-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+ body {
+  font-size: 12px; /* Decrease the font size of the entire webpage */
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+ .kanban-card-title {
+  font-size: 1rem; /* Title of each Kanban card */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kanban-card-footer {
+  font-size: 0.85rem; /* Footer content in the card */
 }

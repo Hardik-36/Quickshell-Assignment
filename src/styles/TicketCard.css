@@ -1,0 +1,152 @@
+/* .ticket-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease;
+}
+
+.ticket-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ticket-header .priority-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.ticket-body {
+    margin-top: 10px;
+}
+
+.ticket-body p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.ticket-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.ticket-footer .status-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.ticket-footer .user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.no-user {
+    font-size: 12px;
+    color: #999;
+} */
+ticket-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-header {
+    margin: 0;
+    /* display: flex;
+    justify-content: space-between;
+    align-items:start; */
+}
+
+.ticket-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ticket-header .priority-icon {
+    width: 5px;
+    height: 5px;
+}
+
+.ticket-header h3 {
+    font-size: 0.9rem;
+}
+
+.ticket-body p {
+    font-size: 0.8rem;
+}
+
+.ticket-footer {
+    font-size: 0.75rem; 
+}
+.ticket-body {
+    margin-top: 10px;
+}
+
+.ticket-body p {
+    color: #555;
+}
+
+.ticket-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap:0.1vw;
+
+}
+
+.ticket-footer .status-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.ticket-footer .user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+h6{
+    margin-top: 0;
+    margin-left: 0;
+    color: #999;
+}
+.no-user {
+    font-size: 12px;
+    color: #999;
+}
+h5{
+    margin-left: 0;
+    
+}
+.status-icon{
+    margin-left: 0.2vw;
+    width: 0.1vw;
+    height: 0.1vw;
+}
